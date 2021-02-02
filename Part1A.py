@@ -29,7 +29,7 @@ def calculate_r2(test_data,predicted_avg):
     sum_squares = np.sum(np.square(np.mean(test_data[:,-1]) - test_data[:,-1]))
     r2 = 1 - (square_residuals/sum_squares)
     print("Squared Error :" , r2)
-    
+    pass
 
 #Execution point for the program    
 if __name__=="__main__":
